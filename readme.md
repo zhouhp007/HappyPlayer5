@@ -28,29 +28,29 @@ Compose 中的触控和输入操作：https://developer.android.google.cn/develo
 android Jetpack合成，使用自定义生命周期/ViewModelStore/SavedStateRegistry Owner时不会触发重组：https://www.saoniuhuo.com/question/detail-2258682.html
 
 部分界面预览
-https://upload-images.jianshu.io/upload_images/4111431-1b58ff84527fa117.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+![](https://upload-images.jianshu.io/upload_images/4111431-1b58ff84527fa117.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp)
 
-https://upload-images.jianshu.io/upload_images/4111431-312058c4ea0eef7a.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+![](https://upload-images.jianshu.io/upload_images/4111431-312058c4ea0eef7a.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp)
 
-https://upload-images.jianshu.io/upload_images/4111431-98dab03f59690295.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+![](https://upload-images.jianshu.io/upload_images/4111431-98dab03f59690295.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp)
 
-https://upload-images.jianshu.io/upload_images/4111431-10d346ddb57212b4.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+![](https://upload-images.jianshu.io/upload_images/4111431-10d346ddb57212b4.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp)
 
-https://upload-images.jianshu.io/upload_images/4111431-e1c3c799336ad944.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+![](https://upload-images.jianshu.io/upload_images/4111431-e1c3c799336ad944.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp)
 
-https://upload-images.jianshu.io/upload_images/4111431-1adb1389f6a9022f.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+![](https://upload-images.jianshu.io/upload_images/4111431-1adb1389f6a9022f.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp)
 
-https://upload-images.jianshu.io/upload_images/4111431-c2e6d08e24dfe451.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+![](https://upload-images.jianshu.io/upload_images/4111431-c2e6d08e24dfe451.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp)
 
-https://upload-images.jianshu.io/upload_images/4111431-4dd3d1395508b879.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+![](https://upload-images.jianshu.io/upload_images/4111431-4dd3d1395508b879.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp)
 
-https://upload-images.jianshu.io/upload_images/4111431-cf0c5a95b7e2da98.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+![](https://upload-images.jianshu.io/upload_images/4111431-cf0c5a95b7e2da98.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp)
 
-https://upload-images.jianshu.io/upload_images/4111431-65c8d505cf605534.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+![](https://upload-images.jianshu.io/upload_images/4111431-65c8d505cf605534.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp)
 
-https://upload-images.jianshu.io/upload_images/4111431-f1f7fed80fca1af2.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+![](https://upload-images.jianshu.io/upload_images/4111431-f1f7fed80fca1af2.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp)
 
-https://upload-images.jianshu.io/upload_images/4111431-f3b66dc849149cd2.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+![](https://upload-images.jianshu.io/upload_images/4111431-f3b66dc849149cd2.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp)
 
 
 
