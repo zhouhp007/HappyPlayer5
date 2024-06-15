@@ -1,76 +1,59 @@
-#HappyPlayer-JavaFX版本预览
+简介
+乐乐音乐Kotlin版，主要是基于ExoPlayer框架开发的Android音乐播放器，它支持lrc歌词和动感歌词(ksc歌词、krc歌词、trc歌词、zrce歌词和hrc歌词等)、多种格式歌词转换器及制作动感歌词、翻译歌词和音译歌词。
 
-##网络歌曲界面
-![网络歌曲.png](https://upload-images.jianshu.io/upload_images/4111431-7d9a1e54fe923ec5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+编译环境
+Android Studio Jellyfish | 2023.3.1 Canary 1
+kotlin
+jetpack-compose
 
-##多行歌词界面
-![多行歌词.png](https://upload-images.jianshu.io/upload_images/4111431-563d70e67035f526.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+节点服务器
+gitee、gitea和gitcode，后续需要探究更多的节点服务器
 
-##桌面歌词
-![桌面歌词.png](https://upload-images.jianshu.io/upload_images/4111431-26486b851ee5d995.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+项目存在问题
+LazyColumn+paging：没写占位符，会存在重复调用网络接口获取数据的问题。
+使用ExoPlayer库处理音频，对于网络歌曲只做了缓存，并没有下载。
+多行歌词1秒30帧都好流畅，而桌面歌词在部分机型上面需要1秒120帧才能保证流畅，如果歌词显示卡顿，可适当调节刷新时间。
+
+参考
+Android 媒体使用入门：https://developer.android.google.cn/media/guides?hl=zh_cn
+
+Jetpack Compose 使用入门：https://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn
+
+动画和过渡：https://developer.android.google.cn/develop/ui/views/animations?hl=zh-cn
+
+Compose 中的触控和输入操作：https://developer.android.google.cn/develop/ui/compose/touch-input?hl=zh-cn
+
+如何在 WindowManager.addView 中使用 Jetpack Compose：https://www.cnblogs.com/joy99/p/17927135.html
+
+android Jetpack合成，使用自定义生命周期/ViewModelStore/SavedStateRegistry Owner时不会触发重组：https://www.saoniuhuo.com/question/detail-2258682.html
+
+部分界面预览
+https://upload-images.jianshu.io/upload_images/4111431-1b58ff84527fa117.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+
+https://upload-images.jianshu.io/upload_images/4111431-312058c4ea0eef7a.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+
+https://upload-images.jianshu.io/upload_images/4111431-98dab03f59690295.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+
+https://upload-images.jianshu.io/upload_images/4111431-10d346ddb57212b4.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+
+https://upload-images.jianshu.io/upload_images/4111431-e1c3c799336ad944.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+
+https://upload-images.jianshu.io/upload_images/4111431-1adb1389f6a9022f.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+
+https://upload-images.jianshu.io/upload_images/4111431-c2e6d08e24dfe451.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+
+https://upload-images.jianshu.io/upload_images/4111431-4dd3d1395508b879.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+
+https://upload-images.jianshu.io/upload_images/4111431-cf0c5a95b7e2da98.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+
+https://upload-images.jianshu.io/upload_images/4111431-65c8d505cf605534.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+
+https://upload-images.jianshu.io/upload_images/4111431-f1f7fed80fca1af2.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
+
+https://upload-images.jianshu.io/upload_images/4111431-f3b66dc849149cd2.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp
 
 
-# H5页面版本简介 #
-https://github.com/zhangliangming/HappyPlayer-Uni.git
-
-# 客户端试用 #
-
-[haplayer-8.0.23032901](https://try.gitea.io/zhangliangming/DataBank/raw/commit/aa86e03d4e70ebfb9929ec07ef3069117f5dfd51/HappyPlayer/apk/haplayer-8.0.23032901.apk)
-
-# 简介 #
-乐乐音乐8.0主要是基于原生MediaPlayer框架开发的Android音乐播放器，它支持lrc歌词和动感歌词(ksc歌词、krc歌词、trc歌词、zrce歌词和hrc歌词等)、多种格式歌词转换器及制作动感歌词、翻译歌词和音译歌词。。
-
-# 运行环境 #
-android5.0及以上
-
-# 音频格式 #
-原生MediaPlayer支持格式
-
-# 歌词格式 #
-- lrc：普通歌词
-- krc：酷狗歌词 
-- ksc：卡拉OK歌词
-- hrc：happy lyrics歌词，乐乐音乐自定义的动感歌词格式，可准确到歌词每个字。
-- 网易云API歌词：该歌词只适用于通过api获取歌词，文件保存格式为：lrcwy。其中动感歌词和lrc歌词只能选其中一种，支持翻译歌词
-- 注：其中krc和hrc歌词支持音译和翻译歌词
-
-# 项目中抽出来的开源控件 #
-
-- [SeekBar（进度条）](https://github.com/zhangliangming/SeekBar.git)
-- [HPLyrics（动感歌词解析和歌词显示库：支持音译和翻译歌词）](https://github.com/zhangliangming/HPLyrics.git)
-- [HPAudio（音频解析库：支持wav、mp3、ape、ogg、wv和flac）](https://github.com/zhangliangming/HPAudio.git)
-
-# 部分效果预览 #
-
-[更多效果图，点击此次查看:https://pan.baidu.com/s/1YkZssna3TO9hKAOXwvxXiw 提取码: dgtc](https://pan.baidu.com/s/1YkZssna3TO9hKAOXwvxXiw)
 
 
-# 更新日志 #
-
-- 界面改版
-- 优化歌词性能
-
-# 传送门 #
-
-- [ijkplayer开源框架](https://github.com/Bilibili/ijkplayer "ijkplayer开源框架")
-- [Hrc/hrcx歌词制作器（播放器）](https://github.com/zhangliangming/HappyPlayer-PC.git "Hrc/Hrcx歌词制作器（播放器）")
-- [浅谈动感歌词](http://zhangliangming.github.io/ "浅谈动感歌词")
-- [Kugou-api](https://github.com/ecitlm/Kugou-api "Kugou-api")
-
-# 声明 #
-仅用于学习用途
-
-# License #
-
-Apache 2.0. See the [LICENSE](https://github.com/zhangliangming/HappyPlayer5/blob/happy_player6/LICENSE) file for details.
-
-# 捐赠 #
-如果该项目对您有所帮助，欢迎您的赞赏
-
-- 微信
-
-![](https://i.imgur.com/hOs6tPn.png)
-
-- 支付宝
-
-![](https://i.imgur.com/DGB9Lq0.png)
+试用
+https://gitcode.net/aakzhangliangming/data-bank/-/raw/master/HappyPlayer/apk/haplayer-9.0.24060501.apk?inline=false
