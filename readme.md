@@ -1,3 +1,7 @@
+![鸿蒙版本](https://developer.huawei.com/consumer/cn/blog/topic/03138542065815116)
+![JavaFX版本](https://www.jianshu.com/p/fe375bdb454a)
+
+
 简介
 
 乐乐音乐Kotlin版，主要是基于ExoPlayer框架开发的Android音乐播放器，它支持lrc歌词和动感歌词(ksc歌词、krc歌词、trc歌词、zrce歌词和hrc歌词等)、多种格式歌词转换器及制作动感歌词、翻译歌词和音译歌词。
