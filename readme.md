@@ -2,6 +2,8 @@
 
 JavaFX版本：https://www.jianshu.com/p/fe375bdb454a
 
+Flutter版本：https://blog.csdn.net/aakzhangliangming/article/details/144671088?spm=1001.2014.3001.5502
+
 
 
 简介
