@@ -1,3 +1,5 @@
+Compose-Desktop版：https://blog.csdn.net/aakzhangliangming/article/details/145249910
+
 鸿蒙版：https://developer.huawei.com/consumer/cn/blog/topic/03138542065815116
 
 JavaFX版本：https://www.jianshu.com/p/fe375bdb454a
